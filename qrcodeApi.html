@@ -4,7 +4,7 @@
   <h1>QR Code</h1>
   <img id="qr" src="">
   <script>
-    fetch('http://' + /* En attente d'hébergement */ + 'qrcode/generate', {
+    fetch('http://' + '88.151.197.191:2025/qrcode' + 'qrcode/generate', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ text: 'exemple', size: 300, dark: '#000080', light: '#a0a0a0' })
