@@ -24,7 +24,7 @@ http://88.151.197.191:2025/qrcode
 ## 🚀 Exemple d’appel
 
 ```js
-fetch('http://' + 'http://88.151.197.191:2025/qrcode' + '/generate', {
+fetch('http://' + '88.151.197.191:2025/qrcode' + '/generate', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
   body: JSON.stringify({ text: 'exemple', size: 300, dark: '#000080', light: '#a0a0a0' })
